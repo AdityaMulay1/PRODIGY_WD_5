@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right top, #bdc3c7, #2c3e50);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input_text {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.submit {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 20px;
+    color: #e74c3c;
+}
+
+.clouds, .desc {
+    font-size: 18px;
+    color: #34495e;
+    margin-top: 10px;
+}
+.submit:hover {
+    background: linear-gradient(to right, #2ecc71, #3498db); /* Adjusted the colors for the hover effect */
+}
